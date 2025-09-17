@@ -11,10 +11,6 @@ app.use("/api",resturentRoute)
 app.use(notFound);
 
 
-// app.use((req,res)=>{
-//     res.status(404).json({msg:"Please Use Valid URL"});
-// })
-
 
 
 app.listen(8080,()=>{
